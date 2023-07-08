@@ -5,13 +5,13 @@
 ![PyPI](https://img.shields.io/pypi/v/aiohttp?label=aiohttp&color=yellow)
 ![PyPI](https://img.shields.io/pypi/v/asyncio?label=asyncio&color=green)
 
-### Actual business benefit
+### :sparkles: Actual business benefit
 
 A small project designed to get data from the hotels website. It can be useful for aggregator sites, data analysis, or database formation.
 
 ___
 
-### Input parsing object
+### :hotel: Input parsing object
 
 The hotel aggregator site [tury.ru](https://www.tury.ru/hotel/) was chosen as the object for parsing.The site includes detailed pages about each of the 1.5 million hotels in the world.
 
@@ -19,13 +19,13 @@ The hotel aggregator site [tury.ru](https://www.tury.ru/hotel/) was chosen as th
 
 ___
 
-### Parser Output parameters
+### :pencil: Parser Output parameters
 
 For each hotel, the program receives:
 + name
 + rating
 + size of the hotel
 + description
-+ location. 
++ location
 
 Provides the received data in **_csv_** and **_json_** format.
